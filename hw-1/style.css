@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    height: 1024px;
+    background-image: url(img/top.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.heading {
+    font-size: 64px;
+    line-height: 78px;
+    color: rgba(255, 255, 255, 1);
+    width: 750px;
+    padding-top: 201px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slogan {
+    width: 481px;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 300;
+    padding-top: 17px;
+}
+
+.btn {
+    font-size: 18px;
+    line-height: 21px;
+    color:rgba(255, 255, 255, 1);
+    background: rgba(156, 3, 50, 1);
+    box-sizing: border-box;
+    border: 1px solid rgba(156, 3, 50, 1);
+    border-radius: 20px;
+    width: 250px;
+    height: 49px;
+    margin-top: 48px;
+}
+
+.more {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 300;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+.game__go {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    color: black;
+    background-image: url(img/Rectangle\ 5.jpg);
+    height: 556px;
+    align-items: center;
+    justify-content: center;
+}
+
+.game__name {
+    font-size: 24px;
+    line-height: 32px;
+    color:rgba(255, 255, 255, 1);
+    font-weight: normal;
+}
+
+.game__1 {
+    background-image: url(img/game1.jpg);
+    width: 379px;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding-left: 32px;
+    padding-bottom: 32px;
+
+}
+
+.game__2 {
+    background-image: url(img/game2.jpg);
+    width: 379px;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
+
+.game__3 {
+    background-image: url(img/game3.jpg);
+    width: 379px;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
