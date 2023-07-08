@@ -84,7 +84,6 @@ a {
     box-sizing: border-box;
     padding-left: 32px;
     padding-bottom: 32px;
-
 }
 
 .game__2 {
@@ -107,4 +106,62 @@ a {
     box-sizing: border-box;
     padding-left: 32px;
     padding-bottom: 32px;
+}
+
+@media(max-width:767px) {
+    .center {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .top {
+        background-image: url(img/topmoble.jpg);
+        height: 735px;
+    }
+    .heading {
+        font-size: 32px;
+        width: 343px;
+        line-height: 39px;
+        text-align: center;
+        padding-top: 238px;
+
+   }
+
+   .slogan {
+    width: 343px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 33px;
+    padding-left: 8px;
+   }
+
+   .btn {
+    margin-left: 62px;
+    margin-right: 62px;
+    margin-top: 32px;
+   }
+   .game__go {
+    height: 1221px;
+    align-items: baseline;
+    align-content: center;
+   
+   }
+   .game__1 {
+    width: 343px;
+    background-image: url(img/game1mobile.png);
+    padding-left: 15px;
+   }
+  
+   .game__2 {
+    width: 343px;
+    background-image: url(img/game2mobile.png);
+    padding-left: 15px;
+   }
+
+   .game__3 {
+    width: 343px;
+    background-image: url(img/game3mobile.png);
+    padding-left: 15px;
+   }
+
 }
