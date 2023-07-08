@@ -3,7 +3,8 @@
     padding: 0;
 }
 
-body {
+body,
+button {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -39,8 +40,6 @@ a {
     font-size: 18px;
     line-height: 32px;
     color: rgba(255, 255, 255, 1);
-    display: flex;
-    flex-wrap: wrap;
     font-weight: 300;
     padding-top: 17px;
 }
@@ -53,16 +52,9 @@ a {
     box-sizing: border-box;
     border: 1px solid rgba(156, 3, 50, 1);
     border-radius: 20px;
-    width: 250px;
+    width: 232px;
     height: 49px;
-    margin-top: 48px;
-}
-
-.more {
-    color: rgba(255, 255, 255, 1);
-    font-weight: 300;
-    line-height: 32px;
-    font-weight: bold;
+    margin-top: 44px;
 }
 
 .game__go {
@@ -84,7 +76,7 @@ a {
 }
 
 .game__1 {
-    background-image: url(img/game1.jpg);
+    background-image: url(img/game1.png);
     width: 379px;
     height: 300px;
     display: flex;
@@ -92,11 +84,10 @@ a {
     box-sizing: border-box;
     padding-left: 32px;
     padding-bottom: 32px;
-
 }
 
 .game__2 {
-    background-image: url(img/game2.jpg);
+    background-image: url(img/game2.png);
     width: 379px;
     height: 300px;
     display: flex;
@@ -107,7 +98,7 @@ a {
 }
 
 .game__3 {
-    background-image: url(img/game3.jpg);
+    background-image: url(img/game3.png);
     width: 379px;
     height: 300px;
     display: flex;
@@ -115,4 +106,62 @@ a {
     box-sizing: border-box;
     padding-left: 32px;
     padding-bottom: 32px;
+}
+
+@media(max-width:767px) {
+    .center {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .top {
+        background-image: url(img/topmoble.jpg);
+        height: 735px;
+    }
+    .heading {
+        font-size: 32px;
+        width: 343px;
+        line-height: 39px;
+        text-align: center;
+        padding-top: 238px;
+
+   }
+
+   .slogan {
+    width: 343px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 33px;
+    padding-left: 8px;
+   }
+
+   .btn {
+    margin-left: 62px;
+    margin-right: 62px;
+    margin-top: 32px;
+   }
+   .game__go {
+    height: 1221px;
+    align-items: baseline;
+    align-content: center;
+   
+   }
+   .game__1 {
+    width: 343px;
+    background-image: url(img/game1mobile.png);
+    padding-left: 15px;
+   }
+  
+   .game__2 {
+    width: 343px;
+    background-image: url(img/game2mobile.png);
+    padding-left: 15px;
+   }
+
+   .game__3 {
+    width: 343px;
+    background-image: url(img/game3mobile.png);
+    padding-left: 15px;
+   }
+
 }
