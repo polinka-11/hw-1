@@ -195,6 +195,19 @@ a {
     display: none;
 }
 
+.game__info--img2{
+    padding-top: 85px;
+}
+
+.game__info--2{
+    padding-top: 130px;
+}
+
+.game__info--imgMobile2 {
+    display: none;
+}
+
+
 @media(max-width:767px) {
     .center {
         padding-left: 10px;
@@ -290,7 +303,18 @@ a {
     }
 
     .game__info--imgMobile {
+        display: unset;
         padding-left: 6px;
     }
+
+    .game__info--img2 {
+        display: none;
+    }
+
+    .game__info--imgMobile2 {
+        display: unset;
+        padding-left: 5px;
+    }
+    
    }
 
