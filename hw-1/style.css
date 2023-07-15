@@ -6,6 +6,7 @@
 body,
 button {
     font-family: 'Montserrat', sans-serif;
+    background:  rgba(0, 9, 21, 1);
 }
 
 .center {
@@ -55,6 +56,14 @@ a {
     width: 232px;
     height: 49px;
     margin-top: 44px;
+    transition: all .5s ease;
+}
+
+.btn:hover {
+    color: #FFFFFF;
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
 }
 
 .game__go {
@@ -84,6 +93,12 @@ a {
     box-sizing: border-box;
     padding-left: 32px;
     padding-bottom: 32px;
+    transition: all 0.3s;
+}
+
+.game__1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #ccc;
 }
 
 .game__2 {
@@ -95,6 +110,12 @@ a {
     box-sizing: border-box;
     padding-left: 32px;
     padding-bottom: 32px;
+    transition: all 0.3s;
+}
+
+.game__2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #ccc;
 }
 
 .game__3 {
@@ -106,6 +127,72 @@ a {
     box-sizing: border-box;
     padding-left: 32px;
     padding-bottom: 32px;
+    transition: all 0.3s;
+}
+
+.game__3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #ccc;
+}
+
+.game__info {
+    margin-top: 234px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 135px;
+    text-align: left;
+}
+
+.game__info--1 {
+    margin-top: 48px;
+}
+
+.game__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    color:rgba(255, 255, 255, 1);
+    padding-bottom: 31px;
+}
+
+.slogan__info {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    width: 584px;
+    color:rgba(255, 255, 255, 1);
+
+}
+
+.btn__info {
+    font-size: 18px;
+    line-height: 21px;
+    color:rgba(255, 255, 255, 1);
+    background: rgba(156, 3, 50, 1);
+    box-sizing: border-box;
+    border: 1px solid rgba(156, 3, 50, 1);
+    border-radius: 20px;
+    width: 232px;
+    height: 49px;
+    margin-top: 33px;
+    padding-right: 15px;
+    transition: all .5s ease;
+}
+
+.btn__info:hover {
+    color: #FFFFFF;
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+}
+
+.game__info--img {
+    width: 333px;
+    height: 485px;
+}
+
+.game__info--imgMobile {
+    display: none;
 }
 
 @media(max-width:767px) {
@@ -113,17 +200,18 @@ a {
         padding-left: 10px;
         padding-right: 10px;
     }
+
     .top {
         background-image: url(img/topmoble.jpg);
         height: 735px;
     }
+
     .heading {
         font-size: 32px;
         width: 343px;
         line-height: 39px;
         text-align: center;
         padding-top: 238px;
-
    }
 
    .slogan {
@@ -140,12 +228,13 @@ a {
     margin-right: 62px;
     margin-top: 32px;
    }
+
    .game__go {
     height: 1221px;
     align-items: baseline;
     align-content: center;
-   
    }
+   
    .game__1 {
     width: 343px;
     background-image: url(img/game1mobile.png);
@@ -164,4 +253,44 @@ a {
     padding-left: 15px;
    }
 
-}
+   .game__info {
+    margin-top: 3px;
+    gap: 62px;
+   }
+
+   .game__info--1 {
+    margin-top: 48px;
+    margin-left: 7px;
+   }
+
+   .game__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: center;
+    padding-left: 5px;
+    padding-bottom: 32px;
+   }
+   
+   .slogan__info {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
+    width: 343px;
+   }
+
+   .btn__info {
+    margin-left: 54px;
+    margin-top: 32px;
+    }
+
+    .game__info--img {
+        display: none;
+    }
+
+    .game__info--imgMobile {
+        padding-left: 6px;
+    }
+   }
+
