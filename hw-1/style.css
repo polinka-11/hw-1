@@ -207,6 +207,71 @@ a {
     display: none;
 }
 
+.game__info--3 {
+    background-image: url(img/gameinfo3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1440px;
+    height: 520px;
+    padding-top: 279px;
+    text-align: center;
+}
+
+.game__title--3 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    color:rgba(255, 255, 255, 1);
+    padding-bottom: 32px;
+}
+
+.slogan__info--3 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    width: 1200px;
+    color:rgba(255, 255, 255, 1);
+    padding-left: 121px;
+
+}
+
+.btn__info--3 {
+    font-size: 18px;
+    line-height: 21px;
+    color:rgba(255, 255, 255, 1);
+    background: rgba(156, 3, 50, 1);
+    box-sizing: border-box;
+    border: 1px solid rgba(156, 3, 50, 1);
+    border-radius: 20px;
+    width: 232px;
+    height: 49px;
+    margin-top: 31px;
+    padding-right: 5px;
+    transition: all .5s ease;
+}
+
+.btn__info--3:hover {
+    color: #FFFFFF;
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+}
+
+.footer {
+    margin-bottom: 32px;
+    margin-top: 35px;
+
+}
+.footer__title {
+    color:rgba(255, 255, 255, 1);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    padding-left: 650px;
+    
+
+}
 
 @media(max-width:767px) {
     .center {
@@ -315,6 +380,32 @@ a {
         display: unset;
         padding-left: 5px;
     }
+
+    .game__info--3 {
+        height: 745px;
+        width: 375px;
+        padding-top: 135px;
+    }
     
+    .game__title--3 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+        text-align: center;
+        padding-left: 5px;
+    }
+
+    .slogan__info--3 {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: center;
+        width: 343px;
+        padding-left: 15px;
+    }
+
+    .footer__title {
+        padding-left: 120px;
+    }  
    }
 

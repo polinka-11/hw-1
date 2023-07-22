@@ -21,7 +21,7 @@
     </header>
     <section class="game__go">
 <div class="game__1">
-    <h5 class="game__name">Игра 1</h5>
+    <h5 onclick="monthNumber()" class="game__name">Игра 1</h5>
 </div>
 <div class="game__2">
     <h5 class="game__name">Игра 2</h5>
@@ -32,9 +32,9 @@
     </section>
     <section class="game__info center">
         <div class="game__info--1">
-            <h5 class="game__title">Времена года!</h5>
+            <h5 onclick="monthNumber()" class="game__title">Времена года!</h5>
             <p class="slogan__info">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
-            <button class="btn__info" type="submit">Играть!</button>
+            <button onclick="monthNumber()" class="btn__info" type="submit">Играть!</button>
         </div>
             <div class="game__info--img">
                 <img src="img/gameinfo1.png" alt="gameinfo1">
@@ -56,5 +56,19 @@
             <img src="img/gameinfoMobile2.png" alt="gameinfoMobile2">
         </div>
     </section> 
+    <section class="game__info">
+        <div class="game__info--3">
+            <h5 class="game__title--3">Игра в загадки</h5>
+            <p class="slogan__info--3">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+            <button class="btn__info--3" type="submit">Играть!</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__title">
+            <p>Все права защищены</p>
+        </div>
+        
+    </footer>
+    <script src="./hw-5.js"></script>
 </body>
 </html>
