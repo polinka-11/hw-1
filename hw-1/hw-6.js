@@ -13,15 +13,22 @@
 
 
 //let numbs = [1, 3, 5, 10, 20];  //№3
-//numbs =numbs.join(' ');
+//nu//mbs =numbs.join(' ');
 //console.log(numbs);
 
 
-//let arr = [  //№4
- //   [1, 1, 1],
-  //  [1, 1, 1],
-  //  [1, 1, 1],
-//]
+//let arr =[];  /№ 4 (исправленное)
+
+//for (let i = 0; i < 3; i++) {
+	//arr[i] = []; 
+	
+	//for (let j = 0; j < 3; j++) {
+	//arr[i].push(1); 
+  
+//}
+//}
+
+//console.log(arr);
 
 
 //const numbs = [1, 1, 1,];  //№5
@@ -37,19 +44,16 @@
 //console.log(date);
 
 
-//const numbs = [9, 8, 7, 6, 5];
+//const numbs = [9, 8, 7, 6, 5];  /№7
+//let userInput = prompt("Угадайте число");
 
-//numbs.forEach((el) => {    //№7
-  //  el = prompt('Угадай число!');
-   // if (el == 9 || el == 8 || el == 7 || el == 6 || el == 5) {
-  //      alert('Угадал!');
-  //  } else {
-  //      alert('Неугадал!');
-  //  }
- //   el++;
-//})
-
-
+//if (numbs.includes(Number(userInput))) {
+//  alert("Угадал");
+//} else {
+//  alert("не угадал");
+//}
+ 
+  
 //const date = 'abcdef';   /№8
 //let letters = date.split('').reverse().join('');
 //console.log(letters);
