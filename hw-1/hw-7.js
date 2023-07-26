@@ -1,15 +1,16 @@
 //console.log('js'.toUpperCase()); //№1
 
-//function searchStart() {  //№2
-    //let animals = ['Кит', 'Кот', 'Собака', 'Петух', 'Лошадь', 'Лось', 'Змея'];
-   // let search = 'о';
-   // animals.forEach((pet) => {
-    //    if (pet.toLowerCase().includes(search.toLowerCase())) {
-    //     console.log(pet);   
-     //   }
+
+//let animals = ['Кит', 'Кот', 'Собака', 'Петух', 'Лошадь', 'Лось', 'Змея'];  //№2
+//let search = 'о';
+//function searchStart(animals, search) {  
+ //       animals.forEach((pet) => {
+  //     if (pet.toLowerCase().includes(search.toLowerCase())) {
+  //     console.log(pet);   
+   //    }
     //})
-   // }
-    //searchStart();
+    //}
+    //searchStart(animals, search);
 
 
 //let number = 32.58884;  //№3
@@ -30,12 +31,10 @@
 
 
 
-//function numbers() {
-   // let numbs = [9, 6, 3, 8, 5, 2, 7, 4, 1, 10];  //№ 5
-//result = numbs[Math.floor(Math.random() * numbs.length)];
-//console.log(result);
+//function numbers(max, min) { //№ 5
+ // return Math.floor(Math.random() *10) + 1;
 //}
-//numbers();
+//console.log(numbers(1, 10));
 
 
 //const numb = (max) => {  // №6

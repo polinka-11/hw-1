@@ -339,6 +339,9 @@ a {
    .game__info--1 {
     margin-top: 48px;
     margin-left: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
    }
 
    .game__title {
@@ -372,6 +375,12 @@ a {
         padding-left: 6px;
     }
 
+    .game__info--2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .game__info--img2 {
         display: none;
     }
@@ -382,9 +391,12 @@ a {
     }
 
     .game__info--3 {
-        height: 745px;
-        width: 375px;
-        padding-top: 135px;
+        width: 375px;     
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5px;
     }
     
     .game__title--3 {
@@ -405,6 +417,7 @@ a {
     }
 
     .footer__title {
+        padding-top: 357px;
         padding-left: 120px;
     }  
    }
