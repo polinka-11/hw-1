@@ -2,7 +2,7 @@
 //while (i <2 ) {
   //  console.log('Привет!');
     //i++;
-//}
+//}lastWord === words.length - 1
 
 //let i = 1;  №2
 //while (i<6) {
