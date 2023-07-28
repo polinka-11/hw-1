@@ -207,12 +207,13 @@ a {
     display: none;
 }
 
-.game__info--3 {
+.game__info1 {
     background-image: url(img/gameinfo3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 1440px;
+}
+.game__info--3 {
     height: 520px;
     padding-top: 279px;
     text-align: center;
@@ -230,10 +231,8 @@ a {
     font-size: 18px;
     font-weight: 300;
     line-height: 32px;
-    width: 1200px;
     color:rgba(255, 255, 255, 1);
-    padding-left: 121px;
-
+    
 }
 
 .btn__info--3 {
