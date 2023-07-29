@@ -106,9 +106,6 @@
 //console.log(filterPositive([-25, 25, 0, -1000, -2]));
 
 
-//let numbs = [9, 6, 3, 8, 5, 2, 7, 4, 1];  //№ 14
-//console.log(numbs);
-//result = numbs[Math.floor(Math.random() * numbs.length)];
 
 //let filtered = numbs.filter((a,i) => i %2 === 1);
 //console.log(filtered);
